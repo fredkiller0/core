@@ -94,7 +94,7 @@ public:
 private:
     // ==================== CONSTANTES ====================
     static const uint32 MAX_HOLDERS = 1000000;
-    static const uint64 MAX_SUPPLY = 1000000000000000000ULL;         // 1 Quintillion pour prix bas (ajusté pour ~0.0000001$ initial, scalable)
+    static const uint64 MAX_SUPPLY = 1000000000000000000ULL;         // 1 Quintillion pour prix bas 
     static const uint64 INITIAL_SUPPLY = 100000000000000000ULL;      // 100 Quadrillion (10%)
     static const uint64 AIRDROP_RESERVE = 250000000000000000ULL;     // 250 Quadrillion (25%, ajusté pour communauté)
     static const uint64 ECOSYSTEM_RESERVE = 200000000000000000ULL;   // 200 Quadrillion (20%, pour liquidity/dev)
